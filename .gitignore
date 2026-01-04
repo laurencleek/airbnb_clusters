@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large raw inputs
+/data/listings.csv.gz
+
+# Derived data artifacts (keep HTML outputs, ignore heavy intermediates)
+/outputs/*.parquet
+/outputs/london_airbnb.csv
+
+# If you prefer not to commit HTML outputs, uncomment:
+# /outputs/*.html
