@@ -5,12 +5,9 @@ Generates an interactive Leaflet/Folium HTML map that visualizes:
 - **Hotspot clusters**: spatial clusters of listings.
 - **Low-pressure listings**: a capped set (top 1,500) of strong individual listings that are **not** in tourist-trap clusters.
 
-The main output is a self-contained HTML file you can publish (e.g., GitHub Pages, personal website).
-
 ## Outputs
 
-- `outputs/a_map.html` — website-ready map output (same content, convenient filename).
-- `outputs/airbnb_checkin_clusters_map.html` — default generator output.
+- `outputs/a_map.html` — website-ready map output.
 
 ## Data files
 
