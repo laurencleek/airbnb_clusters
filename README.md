@@ -53,13 +53,13 @@ Generate the default output:
 python scripts\map_clustering.py
 ```
 
-## Notes
 
-- The borough overlay uses `Housing` from `data/borough_housing.xlsx` to compute:
+## Author / contact
 
-  $$\text{pressure}(b) = \frac{\#\text{listings in } b}{\text{housing stock in } b} \times 100$$
+Made by Lauren Leek.
 
-- The fullscreen control is enabled; the left dashboard is forced to remain visible in fullscreen.
+- Website: https://laurenleek.eu/airbnb_map
+- Questions: laurencaroline.leek@eui.eu
 
 ## License
 
